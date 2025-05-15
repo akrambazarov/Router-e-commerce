@@ -4,8 +4,7 @@ import Location from '../../icons/location';
 import Time from '../../icons/time';
 import Button from '../../components/button';
 import LineIllustrationOne from '../../icons/LineIllustrationOne';
-import LineIllustrationTwo from '../../icons/LineIllustrationTwo';
-import LineArrowTwo from '../../icons/LineArrowTwo';
+
 const Cart = () => {
   const [total, setTotal] = useState(0);
   const [cartData, setCartData] = useState(JSON.parse(localStorage.getItem('cart')) || [])

@@ -223,13 +223,13 @@ setActiveIndex(activeIndex === index ? null : index);
               slidesPerGroup: 1 
             },
             640:{
-              slidesPerView: 2,
-              slidesPerGroup: 2 
+              slidesPerView: 1,
+              slidesPerGroup: 1 
             },
 
             768: {
-              slidesPerView: 3,
-              slidesPerGroup: 3 
+              slidesPerView: 2,
+              slidesPerGroup: 2 
             },
             
           }}
@@ -244,8 +244,8 @@ setActiveIndex(activeIndex === index ? null : index);
             </Link>
             <div className="p-4 space-y-2 flex items-center justify-between gap-4 w-full">
               
-              <h3 className="font-semibold md:text-xl text-xs">{dish.title}</h3>
-               <span className={`md:text-xl text-xs px-2 py-1 rounded-md ${dish.tagColor}`}>{dish.tag}</span>
+              <h3 className="font-semibold md:text-[16px] text-xs">{dish.title}</h3>
+               <span className={`md:text-[16px] text-xs px-2 py-1 rounded-md ${dish.tagColor}`}>{dish.tag}</span>
               <div className="text-sm text-gray-500 flex items-center gap-3">
                 <span className='md:text-xl text-xs'>{dish.time}</span>
                 <span className="text-[#6C5FBC] flex gap-1"><Star className={'size-4 fill-[#6C5FBC] stroke-0'}/> {dish.rating}</span>

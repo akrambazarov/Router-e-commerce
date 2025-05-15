@@ -1,5 +1,5 @@
 import  { useEffect, useState } from 'react';
-import ImgMoreBurger from '../../img/Mask Group.png';
+import ImgMoreBurger from '../../img/mask-group.png';
 import Search from '../../icons/search';
 import imgFood from '../../Img/Food Image.png';
 import { Link } from 'react-router-dom';

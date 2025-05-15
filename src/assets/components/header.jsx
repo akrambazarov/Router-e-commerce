@@ -102,8 +102,8 @@ const Header = () => {
             </li>
         </ul>
         <div className="flex space-x-4 py-1 px-3">
-        <Link to={'/LogIn'}><Button text={'Log in'} className={'text-[#606060] '}/></Link>
-        <Link to={'/SignUp'}><Button text={'Sign Up'} className={'shadow-2xl bg-[#728cff] text-[#ffffff]'}/></Link>
+        <Link to={'/LogIn'} onClick={() => setMenu(false)}><Button text={'Log in'} className={'text-[#606060] '}/></Link>
+        <Link to={'/SignUp'} onClick={() => setMenu(false)}><Button text={'Sign Up'} className={'shadow-2xl bg-[#728cff] text-[#ffffff]'}/></Link>
         </div>
         <Link to={'/Cart'} onClick={() => setMenu(false)} className='m-6 flex gap-2'> Cart
         <FacebookIcon size={20} color="#728cff" />

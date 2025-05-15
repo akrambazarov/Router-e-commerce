@@ -14,7 +14,7 @@ import Right from '../../icons/right';
 import imgFood from '../../Img/Food Image.png';
 import imgFood2 from '../../Img/Food Image2.png';
 import imgFood3 from '../../Img/Food Image3.png';
-import ImgMoreBurger from '../../img/Mask Group.png';
+
 const Pricing = () => {
   const navigate = useNavigate();
   const features = [
