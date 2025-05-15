@@ -26,7 +26,9 @@ import imgFood2 from '../../Img/Food Image2.png';
 import imgFood3 from '../../Img/Food Image3.png';
 import imgGraphik from '../../Img/Graph.png';
 import mobile from '../../Img/Mobile.png';
-import ImgMoreBurger from '../../img/mask-group.png';
+import ImgMoreBurger from "../../Img/bgPng.png";
+
+
 const Home = () => {
   //Hooks
   //useState
