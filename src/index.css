@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-poppins: "Poppins", "sans-serif"; 
+}
+.swiper.swiper-initialized.swiper-horizontal{
+  padding: 55px 0px;
+  background-color: transparent;
+  border-radius: 35px;
+  
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{
+  bottom: 20px;
+}
+.swiper-pagination-bullet{
+  width: 20px!important;
+  height: 3px!important;
+  border-radius: 5px!important;
+}
+.testimonial-swiper .swiper-pagination-bullet{
+  margin: 0!important;
+  width: 45px!important;
+  border-radius: 0px!important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: #6581ff!important;
+}
+.slider .swiper.swiper-initialized.swiper-horizontal{
+  padding:  0px
+}
+.slider .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{
+  bottom: 0px;
+}
+.sliderDishes .swiper.swiper-initialized.swiper-horizontal{
+   padding: 20px 0px 60px 0px;
+}
+.swiper-pagination-vertical .swiper-pagination-bullet{
+width: 4px !important;
+height: 19px !important;
+border-radius: 5px !important;
+}
+@media screen and (max-width:640px) {
+  .testimonial-swiper .swiper-pagination-bullet{
+  width: 16%!important;
+  
+}
+
+}
+.animate{animation: spin 60s linear infinite;}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* @keyframes fly {
+  0% {
+    transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(0.2) translate(
+      calc(var(--target-x) - var(--start-x) - 25px), 
+      calc(var(--target-y) - var(--start-y) - 25px)
+    );
+    opacity: 0;
+  }
+}
+.animate-fly{animation: fly 30s linear infinite!important;}
+.animate-fly img {
+  animation: fly 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  --start-x: calc(var(--image-start-x) + 50px);
+  --start-y: calc(var(--image-start-y) + 50px);
+  --target-x: calc(var(--button-x) + 20px);
+  --target-y: calc(var(--button-y) + 20px);
+} */
